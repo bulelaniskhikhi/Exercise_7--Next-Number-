@@ -1,0 +1,19 @@
+body{
+    overflow: hidden;
+}
+
+button:hover{
+    background-color: #ff98a8 !important;
+    border: none !important;
+}
+
+button{
+    background-color:white !important;
+    border: none !important;
+    animation: gayrage 10s !important ;
+}
+
+@keyframes gayrage {
+    0%{background-color: white;}
+    100%{background-color: #ff98a8}
+}
